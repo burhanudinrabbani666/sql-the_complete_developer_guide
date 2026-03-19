@@ -7,9 +7,7 @@
 | TEXT, LONGTEXT |         |      |       |
 | ENUM           |         |      |       |
 
-## Description:
-
-### Text
+## Description
 
 - CHAR(X): Store text up X characters; shorter text will be space padded
 - VARCHAR(X):
