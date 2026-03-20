@@ -1,12 +1,6 @@
-# TEXT TIMETAMP table
-
-```sql
 CREATE TABLE "conversation" (
     user_name VARCHAR(200),
     employer_name VARCHAR(300),
     message TEXT,
     date_sent DATE
 );
-```
-
-Next: [Insert data new tables](./21-insert-data-new-tables.md)
