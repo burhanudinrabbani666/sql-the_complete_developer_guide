@@ -1,6 +1,3 @@
-# Enums table creation
-
-```sql
 CREATE TYPE Current_status AS ENUM('employed', 'self-empployed', 'unemployed');
 
 CREATE TABLE users (
@@ -8,6 +5,3 @@ CREATE TABLE users (
     yearly_salary   INT,
     current_status  Current_status
 );
-```
-
-Next: [Insert into table](./16-insert-into-table.md)
