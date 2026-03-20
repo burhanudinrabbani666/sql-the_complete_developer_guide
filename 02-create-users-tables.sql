@@ -1,7 +1,7 @@
-CREATE TYPE Current_status AS ENUM('employed', 'self-empployed', 'unemployed');
+CREATE TYPE Employe_status AS ENUM ('employed', 'self-employed', 'unemployed');
 
 CREATE TABLE users (
     full_name       VARCHAR(100),
     yearly_salary   INT,
-    current_status  Current_status
+    current_status Employe_status
 );

@@ -1,9 +1,11 @@
-# Insert into table
+-- INSERT INTO users VALUES ('Burhanudin Rabbani', 50000, 'employed');
+-- SELECT * FROM users;
+-- DELETE FROM users WHERE full_name = 'Burhanudin Rabbani';
 
-```sql
  INSERT INTO users VALUES ('Burhanudin Rabbani', 50000, 'employed');
  INSERT INTO users VALUES ('Rahman', 0, 'unemployed');
  INSERT INTO users (yearly_salary, full_name, current_status) VALUES (2500, 'Agus', 'self-employed');
-```
 
-Next:[Inserting querying data](./17-inserting-querying-data.md)
+
+-- SELECT * FROM users;
+
