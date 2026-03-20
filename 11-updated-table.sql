@@ -1,8 +1,4 @@
-# Updated tables columns
-
-Updating fields
-
-```sql
+-- postgresql
 ALTER TABLE employers
 ALTER COLUMN yearly_revenue
 SET DATA TYPE FLOAT;
@@ -12,6 +8,3 @@ SELECT column_name,
     data_type
 FROM information_schema.columns
 WHERE table_name = 'employers';
-```
-
-Next: [Null vs Zero](./26-null-vs-zero.md)

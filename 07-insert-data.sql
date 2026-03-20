@@ -9,5 +9,4 @@
 -- VALUES( 'Burhanudin Rabbani', 'pt-artaboga', 'HI, minalaidzin walfaidzin. Mohon maaf lahir batin!')
 -- INSERT INTO conversation (user_name, employer_name, message, date_sent)
 -- VALUES( 'Rabbani', 'pt-pelangi', 'Hello, World!', NOW() )
-SELECT *
-FROM conversation
+-- SELECT * FROM conversation
