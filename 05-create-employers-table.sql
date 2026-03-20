@@ -1,12 +1,6 @@
-# Boolean value types
-
-```sql
 CREATE TABLE employers (
     company_name VARCHAR(250),
     company_address VARCHAR(300),
     yearly_revenue NUMERIC(5, 2),
     is_hiring BOOLEAN
 );
-```
-
-Next: [Text timestamp table](./20-text-timestamp-table.md)
