@@ -1,0 +1,3 @@
+-- INSERT INTO users (full_name, yearly_salary, current_status) VALUES ('Burhanudin Rabbani', 20000, 'employed');
+-- INSERT INTO employers (company_name, company_address, yearly_revenue) VALUES ('Nvidia-inc', 'Cirebon', 1000000);
+-- INSERT INTO conversations (users_id, employers_id, message) VALUES (1, 1, 'Hello World!!');
