@@ -1,6 +1,17 @@
 {
   "sqltools.connections": [
     {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "askForPassword": true,
+      "driver": "PostgreSQL",
+      "name": "psql1",
+      "database": "talently",
+      "username": "root"
+    },
+    {
       "mysqlOptions": {
         "authProtocol": "default",
         "enableSsl": "Disabled"
@@ -11,20 +22,9 @@
       "port": 3306,
       "driver": "MariaDB",
       "name": "mariadb1",
-      "database": "sql_course",
+      "database": "talently",
       "username": "root",
       "askForPassword": true
-    },
-    {
-      "ssh": "Disabled",
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "askForPassword": true,
-      "driver": "PostgreSQL",
-      "name": "psql1",
-      "database": "talently",
-      "username": "root"
     }
   ]
 }
