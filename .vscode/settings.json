@@ -1,17 +1,6 @@
 {
   "sqltools.connections": [
     {
-      "ssh": "Disabled",
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "askForPassword": true,
-      "driver": "PostgreSQL",
-      "name": "psql1",
-      "database": "talently",
-      "username": "root"
-    },
-    {
       "mysqlOptions": {
         "authProtocol": "default",
         "enableSsl": "Disabled"
@@ -25,6 +14,17 @@
       "database": "talently",
       "username": "root",
       "askForPassword": true
+    },
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "askForPassword": true,
+      "driver": "PostgreSQL",
+      "name": "psql1",
+      "database": "online_shop",
+      "username": "root"
     }
   ]
 }
