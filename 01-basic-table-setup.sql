@@ -1,10 +1,5 @@
-# setup database table
+-- CREATE DATABASE sales_example;
 
-```sql
-CREATE DATABASE sales_example;
-```
-
-```sql
 CREATE TABLE sales (
     -- id INT PRIMARY KEY AUTO_INCREMENT, -- MySQL or MariaDB
     id SERIAL PRIMARY KEY, -- PostgreSql
@@ -16,6 +11,3 @@ CREATE TABLE sales (
     is_recurring BOOLEAN DEFAULT FALSE,
     is_disputed BOOLEAN DEFAULT FALSE
 )
-```
-
-Next: [Insertingdata example](./9-inserting-data-example.md)
