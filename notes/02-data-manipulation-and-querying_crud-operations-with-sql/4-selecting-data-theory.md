@@ -8,7 +8,7 @@ SELECT <columns> FROM <table name>;
 
 ---
 
-Fetch thge values for the specified columns from the specified columns from the specified table - but only for records (rows) where the conditions is met
+Fetch the values for the specified columns from the specified columns from the specified table - but only for records (rows) where the conditions is met
 
 ```sql
 SELECT <columns> FROM <table name> WHERE <conditions>;

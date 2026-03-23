@@ -1,17 +1,6 @@
 {
   "sqltools.connections": [
     {
-      "ssh": "Disabled",
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "askForPassword": true,
-      "driver": "PostgreSQL",
-      "name": "psql1",
-      "database": "sales_example",
-      "username": "root"
-    },
-    {
       "mysqlOptions": {
         "authProtocol": "default",
         "enableSsl": "Disabled"
@@ -22,9 +11,20 @@
       "port": 3306,
       "driver": "MariaDB",
       "name": "mariadb1",
-      "database": "sales_example",
+      "database": "relations",
       "username": "root",
       "askForPassword": true
+    },
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "askForPassword": true,
+      "driver": "PostgreSQL",
+      "name": "psql1",
+      "database": "relations",
+      "username": "root"
     }
   ]
 }
