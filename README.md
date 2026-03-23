@@ -6,8 +6,6 @@ This repository is a personal SQL learning documentation created as a beginner t
 
 The learning focuses on SQL theory, query practice, and potential real-world use cases.
 
----
-
 ## Features / What You'll Learn
 
 The materials in this repository are structured progressively from basic to advanced topics, including:
@@ -20,8 +18,6 @@ The materials in this repository are structured progressively from basic to adva
 - Indexes & Performance Optimization
 - Transactions
 
----
-
 ## Tech Stack
 
 - Database:
@@ -30,8 +26,6 @@ The materials in this repository are structured progressively from basic to adva
 
 - Tools:
   - SQLTools
-
----
 
 ## Project Structure
 
@@ -42,8 +36,6 @@ The repository is organized to separate theory, code, and practice:
 /code       # Contains SQL query examples
 /practice   # Contains exercises and explorations
 ```
-
----
 
 ## Learning Roadmap
 
@@ -57,8 +49,6 @@ Learning progression in this repository:
 6. Transactions
 7. Indexes & Optimization
 
----
-
 ## Goals
 
 - Document the SQL learning process in a structured way
@@ -66,8 +56,6 @@ Learning progression in this repository:
 - Prepare for a backend developer role
 
 Target completion time: **1 month**
-
----
 
 ## Progress / Milestones
 
@@ -84,8 +72,6 @@ Learning checklist:
 - [ ] Transactions
 - [ ] Indexes & Optimization
 
----
-
 ## Resources
 
 Learning resources used:
@@ -96,13 +82,9 @@ Learning resources used:
 Course Link:
 [https://www.udemy.com/course/sql-the-complete-developers-guide-mysql-postgresql/learn/lecture/28763116?start=0#overview](https://www.udemy.com/course/sql-the-complete-developers-guide-mysql-postgresql/learn/lecture/28763116?start=0#overview)
 
----
-
 ## Contributing
 
 This repository is created for personal learning purposes, so contributions are not currently accepted.
-
----
 
 ## Thanks
 
