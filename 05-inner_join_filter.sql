@@ -1,8 +1,3 @@
-# Joining filtering data
-
-Set the table first with inner join all data, and next to filtering.
-
-```sql
 SELECT u.id,
     u.first_name,
     u.last_name,
@@ -15,6 +10,3 @@ FROM users AS u
 WHERE c.name = 'Berlin'
     OR c.id = 2
 ORDER BY u.id DESC;
-```
-
-Next: [Left join introduction](./13-left-join-introduction.md)
