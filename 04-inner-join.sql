@@ -1,6 +1,3 @@
-# Multiple joins
-
-```sql
 SELECT u.id,
     u.first_name,
     u.last_name,
@@ -10,6 +7,3 @@ SELECT u.id,
 FROM users AS u
     INNER JOIN address AS a ON u.address_id = a.id
     INNER JOIN cities AS c ON a.city_id = c.id;
-```
-
-Next: [Joining filtering data](./12-joining-filtering-data.md)
