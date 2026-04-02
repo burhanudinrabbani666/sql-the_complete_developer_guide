@@ -1,6 +1,3 @@
-# Example more tables data
-
-```sql
 CREATE TABLE company_buildings(
     id SERIAL PRIMARY KEY,
     name VARCHAR(300) NOT NULL
@@ -27,6 +24,3 @@ CREATE TABLE intranet_accounts (
     email VARCHAR(200) REFERENCES employees(email) ON DELETE CASCADE,
     password VARCHAR(200) NOT NULL
 );
-```
-
-Next: [Many-to-Many linking tables](./30-many-to-many-linking-tables.md)
