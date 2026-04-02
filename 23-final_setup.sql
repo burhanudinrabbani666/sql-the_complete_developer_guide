@@ -1,7 +1,13 @@
-CREATE TABLE projects(
+DROP TABLE projects_employees;
+DROP TABLE intranet_accounts;
+DROP TABLE employees;
+DROP TABLE teams;
+DROP TABLE company_buildings;
+DROP TABLE projects;
+CREATE TABLE projects (
     id SERIAL PRIMARY KEY,
     title VARCHAR(300) NOT NULL,
-    deadline DATE,
+    deadline DATE
 );
 CREATE TABLE company_buildings(
     id SERIAL PRIMARY KEY,
@@ -10,7 +16,7 @@ CREATE TABLE company_buildings(
 CREATE TABLE teams(
     id SERIAL PRIMARY KEY,
     name VARCHAR(300) NOT NULL,
-    building_id INT REFERENCES company_buildings (id) ON DELETE
+    building_id INT REFERENCES company_buildings ON DELETE
     SET NULL
 );
 CREATE TABLE employees (
@@ -20,7 +26,7 @@ CREATE TABLE employees (
     last_name VARCHAR(200) NOT NULL,
     birthdate DATE NOT NULL,
     email VARCHAR(200) UNIQUE NOT NULL,
-    team_id INT DEFAULT 1 REFERENCES teams (id) ON DELETE
+    team_id INT DEFAULT 1 REFERENCES teams ON DELETE
     SET DEFAULT
 );
 CREATE TABLE intranet_accounts (
