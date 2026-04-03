@@ -66,7 +66,7 @@ Learning checklist:
 - [x] Basic SQL Introduction
 - [x] CRUD Operations
 - [x] Data Filtering & Sorting
-- [ ] JOIN & Relationships
+- [x] JOIN & Relationships
 - [ ] Grouping & Aggregation
 - [ ] Built-in Functions
 - [ ] Transactions
