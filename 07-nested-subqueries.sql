@@ -1,18 +1,3 @@
-# Nested subqueries
-
-Get Minimum value from aggregant Table
-
-```sql
-SELECT min(daily_sum)
-FROM(
-    SELECT booking_date,
-      sum(amount_billed) AS daily_sum
-    FROM bookings
-    GROUP BY booking_date
-  );
-```
-
-```sql
 SELECT booking_date,
   (
     SELECT min(daily_sum)
@@ -34,6 +19,3 @@ HAVING sum(amount_billed) = (
         GROUP BY booking_date
       )
   )
-```
-
-Next: [Window functions](./12-window-functions.md)
