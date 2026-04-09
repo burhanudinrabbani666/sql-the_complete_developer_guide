@@ -22,8 +22,8 @@
       "port": 5432,
       "askForPassword": true,
       "driver": "PostgreSQL",
-      "name": "psql1",
-      "database": "relations",
+      "name": "postgresql",
+      "database": "gym",
       "username": "root"
     }
   ]
