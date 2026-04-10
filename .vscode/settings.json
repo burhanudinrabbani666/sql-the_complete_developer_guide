@@ -8,7 +8,7 @@
       "askForPassword": true,
       "driver": "PostgreSQL",
       "name": "postgresql",
-      "database": "gym",
+      "database": "indexes",
       "username": "root"
     },
     {
@@ -22,7 +22,7 @@
       "port": 3306,
       "driver": "MariaDB",
       "name": "mariadb1",
-      "database": "gym",
+      "database": "indexes",
       "username": "root",
       "askForPassword": true
     }
