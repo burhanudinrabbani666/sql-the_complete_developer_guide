@@ -4,4 +4,16 @@ Transactions are a fundamental concept of all database systems. The essential po
 
 Docs: https://www.postgresql.org/docs/8.3/tutorial-transactions.html
 
+First we should run transaction when session start
+
+```sql
+START TRANSACTION;
+```
+
+And Run `ROLLBACK` if some query failed and you dont wanna commit the data
+
+```sql
+ROLLBACK;
+```
+
 Next: [module project note](./02-module-project-note.md)
